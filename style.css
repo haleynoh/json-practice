@@ -1,0 +1,77 @@
+ @font-face {
+ 	font-family: roboto;
+ 	src: url('Roboto.ttf');
+ }
+
+  @font-face {
+ 	font-family: DM;
+ 	src: url('DM.ttf');
+ }
+
+body {
+	background-color: #e8f1ff;
+}
+
+h1 {
+	font-family: DM;
+	text-align: center;
+	font-size: 50px;
+}
+
+#outputParagraph {
+	text-align: center;
+	font-family: Roboto;
+}
+
+.bigContainer {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-beteen;
+
+}
+
+.gallery {
+	display: flex;
+	flex-direction: column;
+	vertical-align: middle;
+	justify-content: space-between;
+	width: 30%;
+	margin: 30px auto;
+
+}
+
+
+#contentGrid {
+	width: 40%;
+	display: flex;
+	flex-direction: column;
+}
+
+.contentTitle {
+	font-family: DM;
+	text-align: center;
+}
+
+.content {
+	padding-left: 20px;
+	width: 60%;
+	height: 290px;
+	margin: 30px auto;
+	text-align: left;
+}
+
+.firstColumn {
+	display: flex;
+	flex-direction: column;
+}
+
+h3 {
+	font-family: roboto;
+	font-size: 20px;
+	font-weight: normal;
+}
+
+p {
+	font-family: DM;
+	font-size: px;
+}
